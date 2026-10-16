@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        title>Document</title>
+    </head>
+    <style>
+        *{border: 1px solid black; margin: 0px; padding: 0px; box-sizing: content-box;
+        .container { display: grid;
+            grid-template-areas: 
+            "header header header header"
+            "main main aside main"
+            "mitya mitya aside mitya"
+            ;
+            grid-template-rows: 1px;
+        }
+            #box1 { grid-area: header;}
+            #box2 { grid-area: main;}
+            #box10 { grid-area: aside;}
+        }
+    </style>
+    
+    <body>
+        <div class="container">
+            <div class="box" id="box1"> box 1</div>
+            <div class="box" id="box2"> box 2</div>
+            <div class="box" id="box3"> box 3</div>
+            <div class="box" id="box4"> box 4</div>
+            <div class="box" id="box5"> box 5</div>
+            <div class="box" id="box6"> box 6</div>
+            <div class="box" id="box7"> box 7</div>
+            <div class="box" id="box8"> box 8</div>
+            <div class="box" id="box9"> box 9</div>
+            <div class="box" id="box10"> box 10</div>
+    </body>

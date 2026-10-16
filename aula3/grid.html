@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Pagina Camila" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{border: 1px solid black; margin: 0px; padding: 0px; box-sizing: border-box;}
+        .container { display: grid;
+            grid-template-columns: 50px 1fr 1fr 20fr;
+            grid-template-rows: 100px 500px 300px;
+            grid-gap: 10px;
+        }
+        #box1 { 
+            grid-column: 2/4;
+
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+        }
+    </style>
+ <ad>
+<y>
+    <div class="container">
+        <div class="box" id="box1"> box 1</div>
+        <div class="box" id="box2"> box 2</div>
+        <div class="box" id="box3"> box 3</div>
+        <div class="box" id="box4"> box 4</div>
+    </div>
+</y>
+
+ </ad>
+   
+</html>
